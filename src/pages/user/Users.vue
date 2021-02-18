@@ -56,14 +56,14 @@
             </el-table>
              <!-- 分页 -->
             <el-pagination
-            @size-change="handleSizeChange"
-            @current-change="handleCurrentChange"
-            :current-page="queryInfo.pagenum"
-            :page-sizes="[1, 2, 3, 4]"
-            :page-size="queryInfo.pagesize"
-            layout="total, sizes, prev, pager, next, jumper"
-            :total="total">
-        </el-pagination>
+              @size-change="handleSizeChange"
+              @current-change="handleCurrentChange"
+              :current-page="queryInfo.pagenum"
+              :page-sizes="[1, 2, 3, 4]"
+              :page-size="queryInfo.pagesize"
+              layout="total, sizes, prev, pager, next, jumper"
+              :total="total">
+            </el-pagination>
         </el-card>
         <!-- 添加对话框 -->
         <el-dialog
